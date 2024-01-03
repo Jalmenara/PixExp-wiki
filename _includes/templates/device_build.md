@@ -101,6 +101,8 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
+{% include alerts/tip.html content="`repo` is an official Google tool on top of Git used for Android development. [More info](https://source.android.com/docs/setup/download?hl=en)" %}
+
 ### Put the `~/bin` directory in your path of execution
 
 In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
